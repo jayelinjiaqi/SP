@@ -1,0 +1,23 @@
+ET1571 - LINUX SYSTEM ADMINISTRATION
+
+1. 29 OCT 2026
+
+Redhat
+https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/auth?response_type=code&client_id=rha-webapp-prod&redirect_uri=https%3A%2F%2Frha.ole.redhat.com%2Frha%2Fauth%2Fauthorize&scope=openid+profile+email&state=X94khxGc6oMEp62rYhUyDVg8ILak3D&nonce=yT6b4hXY9fTTYkD5xuKM
+OR
+https://rha.ole.redhat.com/rha/app/courses/rh134-9.3/pages/pr01s02/71406c60-e873-4f50-8a8b-1d2ab5439c68
+
+jayelin:M!21
+
+workstation -> open console -> terminal
+
+lab start console-write
+ssh student@servera
+
+Guided exercise: servera
+
+Lab: serverb
+
+https://awsacademy.instructure.com/?login_success=1
+
+2. 5 NOV 2026
