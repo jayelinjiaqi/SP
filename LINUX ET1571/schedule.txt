@@ -1,11 +1,16 @@
 ET1571 - LINUX SYSTEM ADMINISTRATION
 
-W1. 29 OCT 2026 (Thu) 
+W1. Chapter 1: Improving Command Line Productivity (22 OCT 2026 THU)
+a. Writing Simple Bash Scripts (RH134 Chapter 1)
+b. Loops and Conditional Constructs in Scripts (RH134 Chapter 1)
+c. Matching Text in Command Output with Regular Expressions (RH134 Chapter 1)
+d. Lab: Improving Command-line Productivity (RH134 Chapter 1)
+e. Learning Path 1: Supplementary notes and knowledge check
+
 Redhat
 https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/auth?response_type=code&client_id=rha-webapp-prod&redirect_uri=https%3A%2F%2Frha.ole.redhat.com%2Frha%2Fauth%2Fauthorize&scope=openid+profile+email&state=X94khxGc6oMEp62rYhUyDVg8ILak3D&nonce=yT6b4hXY9fTTYkD5xuKM
 OR
 https://rha.ole.redhat.com/rha/app/courses/rh134-9.3/pages/pr01s02/71406c60-e873-4f50-8a8b-1d2ab5439c68
-
 jayelin:M!21
 
 workstation -> open console -> terminal
@@ -15,16 +20,7 @@ ssh student@servera
 Guided exercise: servera
 Lab: serverb
 
-W1. 5 NOV 2026 (THU)
-Chapter 1: Improving Command Line Productivity
-a. Writing Simple Bash Scripts (RH134 Chapter 1)
-b. Loops and Conditional Constructs in Scripts (RH134 Chapter 1)
-c. Matching Text in Command Output with Regular Expressions (RH134 Chapter 1)
-d. Lab: Improving Command-line Productivity (RH134 Chapter 1)
-e. Learning Path 1: Supplementary notes and knowledge check
-
-W2. 12 NOV 2026 (THU)
-Chapter 2: Scheduling Future Tasks (RH134)
+W2. Chapter 2: Scheduling Future Tasks (RH134) (29 OCT 2026 THU)
 a. Scheduling a Deferred User Job (RH134 Chapter 2)
 b. Guided Exercise: Scheduling Recurring User Jobs (RH134 Chapter 2)
 c. Scheduling Recurring System Jobs (RH134 Chapter 2)
@@ -33,8 +29,7 @@ e) Learning Path 2: Supplementary notes and
 knowledge check
 f) Quiz in RHA
 
-W3. 19 NOV 2026 (THU)
-Chapter 3: Analyse and Store Logs (RH134)
+W3. Chapter 3: Analyse and Store Logs (RH134) (5 NOV 2026 THU)
 a. Review Syslog Files (RH134 Chapter 3)
 b. Review System Journal Entries (RH134 Chapter 3)
 c. Preserve the System Journal (RH134 Chapter 3)
@@ -43,10 +38,28 @@ e. Lab: Analyse and Store Logs (RH134 Chapter 3)
 f) Learning Path 3: Supplementary notes and knowledge check
 g) Quiz in RHA
 
-W4. 26 NOV 2026 (THU)
-Chapter 4 - Archive and Transfer Files (RH134)
+W4. Chapter 4 - Archive and Transfer Files (RH134) (12 NOV 2026 THU)
 a. Manage Compressed tar Archives (RH134 Chapter 4)
 b. Transfer Files Between Systems Securely (RH134 Chapter 4)
 c. Synchronize Files Between Systems Securely (RH134 Chapter 4)
 d. Lab: Archive and Transfer Files (RH134 Chapter 4)
 e. Learning Path 4: Supplementary notes and knowledge check
+
+W5. Chapter 5 - Tune System Performance (RH134) (19 NOV 2026 THU)
+a. Adjust Tuning Profiles (RH134 Chapter 5)
+b. Influence Process Scheduling (RH134 Chapter 5)
+c. Lab: Tune System Performance (RH134 Chapter 5)
+d. Learning Path 5: Supplementary notes and knowledge check
+
+W6. Chapter 6 - Manage SELinux Security (RH134) (26 NOV 2026 THU)
+a. Change the SELinux Enforcement Mode (RH134 Chapter 6)
+b. Control SELinux File Contexts (RH134 Chapter 6)
+c. Adjust SELinux Policy with Booleans (RH134 Chapter 6)
+d. Investigate and Resolve SELinux Issues (RH134 Chapter 6)
+e. Lab: Manage SELinux Security (RH134 Chapter 6)
+
+W7. 5 DEC 2026 (THU)
+Lab Test 1 (25%)
+Class Test 1 (15%)
+
+W8. 
