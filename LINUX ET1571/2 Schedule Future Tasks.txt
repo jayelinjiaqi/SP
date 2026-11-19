@@ -1,0 +1,36 @@
+2.1: Schedule a Deferred User Job
+# Prepare lab environment
+lab start scheduling-at
+
+# Open SSH session to servera as the student user
+ssh student@servera
+
+# Pass date >> /home/student/myjob.txt string as the input to at command, job runs two mins from now.
+echo "date >> /home/student/myjob.txt" | at now +2min
+
+# List scheduled job
+atq
+
+# Monitor the deferred jobs queue in real time. 
+watch atq
+
+# Verify that the contents of the /home/student/myjob.txt file match the output of the date command.
+cat myjob.txt
+
+2.2: Guided Exercise: Schedule a Deferred User Job
+
+2.3: Schedule Recurring User Jobs
+
+2.4: Guided Exercise: Schedule Recurring User Jobs
+
+2.5: Schedule Recurring System Jobs
+
+2.6: Guided Exercise: Schedule Recurring System Jobs
+
+2.7: Manage Temporary Files
+
+2.8: Guided Exercise: Manage Temporary Files
+
+2.9: Quiz: Schedule Future Tasks
+
+2.10: Summary
