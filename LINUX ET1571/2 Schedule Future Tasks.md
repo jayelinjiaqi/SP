@@ -5,14 +5,17 @@
    ```bash
    lab start scheduling-at
 
-# Open SSH session to servera as the student user
-ssh student@servera
+2. **Open SSH session to servera as the student user**
+   ```bash
+   ssh student@servera
 
-# Pass date >> /home/student/myjob.txt string as the input to at command, job runs two mins from now.
-echo "date >> /home/student/myjob.txt" | at now +2min
+3. **Pass date >> /home/student/myjob.txt string as the input to at command, job runs two mins from now.**
+   ```bash
+   echo "date >> /home/student/myjob.txt" | at now +2min
 
-# List scheduled job
-atq
+4. **List scheduled job**
+   ```bash
+   atq
 
 # Monitor the deferred jobs queue in real time. 
 watch atq
