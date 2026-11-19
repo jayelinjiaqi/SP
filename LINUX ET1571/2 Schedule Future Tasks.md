@@ -1,6 +1,9 @@
-2.1: Schedule a Deferred User Job
-# Prepare lab environment
-lab start scheduling-at
+## 2.1: Schedule a Deferred User Job
+
+1. **Prepare the lab environment**
+
+   ```bash
+   lab start scheduling-at
 
 # Open SSH session to servera as the student user
 ssh student@servera
