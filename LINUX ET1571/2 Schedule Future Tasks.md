@@ -17,10 +17,12 @@
    ```bash
    atq
 
-# Monitor the deferred jobs queue in real time. 
-watch atq
+5. **Monitor the deferred jobs queue in real time**
+   ```bash
+   watch atq
 
-# Verify that the contents of the /home/student/myjob.txt file match the output of the date command.
+6. **Verify that the contents of the /home/student/myjob.txt file match the output of the date command**
+   ```bash
 cat myjob.txt
 
 2.2: Guided Exercise: Schedule a Deferred User Job
