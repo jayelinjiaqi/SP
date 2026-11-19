@@ -23,7 +23,17 @@
 
 6. **Verify that the contents of the /home/student/myjob.txt file match the output of the date command**
    ```bash
-cat myjob.txt
+   cat myjob.txt
+
+7. **Interactively schedule a job in the g queue that runs at teatime (16:00). The job should print It's teatime message to the /home/student/tea.txt file. Append the new messages to the /home/student/tea.txt file**
+   ```bash
+   at -q g teatime
+   
+   ```bash
+   echo "It's teatime" >> /home/student/tea.txt
+
+   ```bash
+   Ctrl+d
 
 2.2: Guided Exercise: Schedule a Deferred User Job
 
